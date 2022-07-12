@@ -14,6 +14,10 @@
 * [𝐒𝐮𝐩𝐞𝐫𝐆𝐫𝐚𝐝𝐢𝐞𝐧𝐭𝐬] https://www.linkedin.com/posts/rami-krispin_python-deeplearning-pytorch-activity-6951528246849011712-alGd?utm_source=linkedin_share&utm_medium=android_app
 * [Mercury] https://www.linkedin.com/posts/piotr-plonski-mljar_ive-updated-the-mercury-demo-notebooks-website-activity-6951491810045132801-M64A?utm_source=linkedin_share&utm_medium=android_app
 * [mlxtend] https://www.linkedin.com/posts/bextuychiev_one-of-the-most-fun-th%C4%B1ngs-you-can-do-w%C4%B1th-activity-6951792146249093121-F7C5?utm_source=linkedin_share&utm_medium=android_app
+* [Rich] https://www.linkedin.com/posts/bextuychiev_rich-%C4%B1s-one-of-the-most-beaut%C4%B1ful-and-useful-activity-6952356593510330368-aZGa?utm_source=linkedin_share&utm_medium=android_app
+
+**Data visulization**
+https://www.linkedin.com/posts/bextuychiev_how-to-choose-a-correct-dpi-and-f%C4%B1gure-s%C4%B1ze-activity-6952426323914985473-eFNl?utm_source=linkedin_share&utm_medium=android_app
 
 
 ** data visualization
