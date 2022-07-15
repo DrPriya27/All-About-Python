@@ -6,6 +6,11 @@
 ** all about pandas
 *https://www.linkedin.com/posts/saileelarahulpujari_certificate-of-accomplishment-sai-leela-activity-6940373377580679168-egEo?utm_source=linkedin_share&utm_medium=android_app
 
+Print missing values for each column
+print(music_df.isna().sum().sort_values())
+
+https://pandastutor.com/
+
 ** Python Libraries
 * for interpratibility (https://www.linkedin.com/posts/smasis_machinelearning-datascience-data-activity-6943539354589958144-azKA?utm_source=linkedin_share&utm_medium=android_app)
 * [PyCaret] https://www.linkedin.com/feed/update/urn:li:activity:6948275260790067200?utm_source=linkedin_share&utm_medium=android_app
