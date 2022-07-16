@@ -119,6 +119,36 @@ norm = Normalizer()
 catDf.iloc[:,1:-1] = norm.fit_transform(catDf.iloc[:,1:-1])
 catDf
 
+pd.read_csv()
+pd.read_table()
+pd.read_excel()
+pd.read_sql()
+pd.read_json()
+pd.read_html()
+pd.DataFrame()
+pd.concat()
+pd.series()
+pd.data_range()
+
+pd.fillna()
+pd.apply()
+pd.sort_values()
+pd.append()
+pd.rename()
+pd.groupby()
+pd.join()
+pd.to_csv()
+pd.set_index()
+
+pd.tail()
+pd.info()
+pd.mean()
+pd.median()
+pd.count()
+pd.std()
+pd.max()
+pd.min()
+
 
 
 
