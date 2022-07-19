@@ -26,15 +26,58 @@ https://github.com/anirudhjayaraman/Hackathon-Experiments-With-Data-Analytics-Vi
 https://www.linkedin.com/posts/activity-6931211880719949824-HHKv/?utm_source=linkedin_share&utm_medium=android_app
 
 
+```
 ### viewing the first few rows of the dataset
-dataset.head()
+df.head()
 
 ### viewing statistical info about dataset
-dataset.describe()
+df.describe()
+
+df.info()
+df.shape
+
+### print the values of dataset
+df.values()
+
+### print the column index of dataset
+df.columns
+
+### print the row index of dataset
+df.index
 
 ### print missing values
 df.isna().sum()
 df.isnull().sum()
+
+### sorting and subsetting
+df.sort_values(["col1", "col2"], ascending = [True,False])
+df[["col1", "col2"]] #subsetting multiple columns
+cols_to_subset = ["col1", "col2"]
+df[cols_to_subset]
+
+df[df["col1"] > 50]      #subsetting rows
+df[df["col1"] == "SampleString"]
+df[(df["col1"] > 50]) & (df["col1"] == "SampleString"])]
+
+df["col1"].isin(["Black","White"])    #subsetting using .isin()
+
+### setting new columns
+df["newCol"] = df["col1"] / 1000
+
+### summary statistics
+df["col1"].mean()   [.median(), .mode(), .min(), .max(), .var(), .std(), .sum(), .quantile(), .cumsum(), .cummax(), .cummin(), .cumprod()]
+#.agg method
+
+def pct30(column):
+   return column.quantile(0.3)
+df[["col1", "col2"]].agg(pct30)   
+
+def pct40(column):
+   retuen column.quantile(0.4)
+df["col1"].agg([pct30, pct40])
+ 
+```
+
 
 ### Dropping categorical data rows with missing values
 dataset.dropna(how='any', subset=['Country', 'Purchased'], inplace=True)
