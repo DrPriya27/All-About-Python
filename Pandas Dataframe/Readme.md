@@ -45,6 +45,7 @@ df.columns
 
 ### print the row index of dataset
 df.index
+df.iloc[3,:]  #retrive row by "index" row label
 
 ### print missing values
 df.isna().sum()
@@ -86,6 +87,73 @@ df["col1"].value_counts(sort=True)  #use normalize=True for normalizing value co
 df.groupby("color")["weight"].mean()   #group by color column and take the mean on weight column
 df.groupby(["color","breed"])[["weight","height"]].mean() 
 df.groupby("color")["weight"].agg([min,max,sum]) 
+
+### grouping by pivot table
+df.pivot_table(values="weight", index="color", aggfunc=np.mean)  # by defaul it is np.mean
+df.pivot_table(values="weight", index="color", aggfunc=[np.mean, np.median])
+df.pivot_table(values="weight", index="color", columns="breed")  # for performing df.groupby(["color","breed"])[["weight","height"]].mean() 
+df.pivot_table(values="weight", index="color", columns="breed",fill_value=0) # filling nan values with zero, other options are margins=True for producing total column
+modified_df.mean(axis="index") #use axis="columns" for computing across columns
+
+# Add a year column to temperatures
+temperatures["year"] = temperatures["date"].dt.year
+
+# Pivot avg_temp_c by country and city vs year
+temp_by_country_city_vs_year = temperatures.pivot_table("avg_temp_c", index = ["country", "city"], columns = "year")
+
+# See the result
+print(temp_by_country_city_vs_year)
+
+
+### explicit indexing rather than by row number
+df.set_index["col1"]
+df.reset_index()
+df.reset_index(drop=True)  #entirely drop index column
+
+modified_df.loc[["Black","White"]]  # use it in place of df["col1"].isin(["Black","White"]) after making col1 as an index. loc works on index column
+df.set_index(["col1", "col2"])
+
+# to subset inner levels with a list of tuples
+modified_df.loc[[("aa","bb"),("cc","dd")]]  aa & cc is in col1 and bb && dd is in col2
+
+modified_df.sort_index()
+modified_df.sort_index(level=["color","breed"], ascending=[True, False])
+
+### slicing and subsetting by .loc and .iloc
+modified_df=df.set_index(["col1", "col2"]).sort_index()
+modified_df.loc["name1":"name4"] # slicing the outer index level
+modified_df.loc[("aa","bb"):("cc","dd")] # slicing the inner index level
+
+modified_df.loc[:, "somecol":"fewmore"]  # slicing columns
+modified_df.loc[("aa","bb"):("cc","dd"), "somecol":"fewmore"]
+
+df.iloc[2:5,1:2] # slicing by iloc with index numbers
+
+### visualization
+import matplotlib.pyplot as plt
+df["col1"].hist()
+plt.show()
+
+#bar plots
+df.groupby("col1")["weight"].mean()
+modified_df.plot(kind="bar",title="mean weight")
+plt.show()
+
+#line plots
+df.plot(kind="line",x="date",y="weight")  #use rot=45 to rotate x-axis text
+plt.show()
+
+#scatter plots
+df.plot(kind="scatter",x="date",y="weight")  
+plt.show()
+
+#overlaying plots
+df[df["sex"]=="F"]["height"].hist(alpha=0.7)  #alpha to make plots transparent
+df[df["sex"]=="M"]["height"].hist(alpha=0.7)
+plt.legand(["F","M"])
+plt.show()
+
+
 ```
 
 ### Dropping categorical data rows with missing values
@@ -184,16 +252,13 @@ pd.data_range()
 
 pd.fillna()
 pd.apply()
-pd.sort_values()
+
 pd.append()
 pd.rename()
-pd.groupby()
+
 pd.join()
 pd.to_csv()
-pd.set_index()
 
-pd.tail()
-pd.info()
 pd.mean()
 pd.median()
 pd.count()
