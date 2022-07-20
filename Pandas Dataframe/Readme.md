@@ -49,7 +49,10 @@ df.iloc[3,:]  #retrive row by "index" row label
 
 ### print missing values
 df.isna().sum()
+df.isna().any() #provides true and false
 df.isnull().sum()
+
+df.isna().sum().plot(kind="bar")
 
 ### sorting and subsetting
 df.sort_values(["col1", "col2"], ascending = [True,False])
@@ -131,7 +134,15 @@ df.iloc[2:5,1:2] # slicing by iloc with index numbers
 
 ### visualization
 import matplotlib.pyplot as plt
-df["col1"].hist()
+df["col1"].hist() #use bins=20 or something for chaning hist
+plt.show()
+
+# List the columns with missing values
+cols_with_missing = ["small_sold", "large_sold", "xl_sold"]
+# Create histograms showing the distributions cols_with_missing
+avocados_2016[cols_with_missing].hist()   #three histogram will show up
+
+# Show the plot
 plt.show()
 
 #bar plots
@@ -153,16 +164,34 @@ df[df["sex"]=="M"]["height"].hist(alpha=0.7)
 plt.legand(["F","M"])
 plt.show()
 
-
-```
+### dropping duplicate values
+df = df.drop_duplicates()
 
 ### Dropping categorical data rows with missing values
-dataset.dropna(how='any', subset=['Country', 'Purchased'], inplace=True)
+df.drona()
+df.dropna(how='any', subset=['Country', 'Purchased'], inplace=True)
+df.fillna(0)
 
 In the code above, for the parameter ‘how’, the argument ‘any’ drops the row if any value is null. But the argument ‘all’ will only drop the row if all the values are null. The argument for the ‘subset’ parameter is a list containing the columns we want to remove missing values from. ‘inplace=True’ modifies our original dataframe, instead of returning a copy of the dataframe.
 
-### dropping duplicate values
-dataset = dataset.drop_duplicates()
+### creating data frame
+1) from list of dictionaries
+eg = [
+  {"name":"priya", "gender":F},...
+  ]
+df=pd.DataFrame(eg)
+
+2) from dictionary of list
+eg={
+"name" ["priya","parv"],
+}
+
+
+```
+
+
+
+
 
 
 ### impute missing values or drop
