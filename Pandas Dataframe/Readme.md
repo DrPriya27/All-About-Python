@@ -79,6 +79,7 @@ df["col1"].agg([pct30, pct40])
 ### summarize categorical data
 df.drop_duplicates(subset=["col1","col2"])
 df["col1"].value_counts(sort=True)  #use normalize=True for normalizing value counts
+
  
 ```
 
