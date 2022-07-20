@@ -26,6 +26,7 @@ https://github.com/anirudhjayaraman/Hackathon-Experiments-With-Data-Analytics-Vi
 https://www.linkedin.com/posts/activity-6931211880719949824-HHKv/?utm_source=linkedin_share&utm_medium=android_app
 
 
+
 ```
 ### viewing the first few rows of the dataset
 df.head()
@@ -80,9 +81,12 @@ df["col1"].agg([pct30, pct40])
 df.drop_duplicates(subset=["col1","col2"])
 df["col1"].value_counts(sort=True)  #use normalize=True for normalizing value counts
 
- 
-```
 
+### 
+df.groupby("color")["weight"].mean()   #group by color column and take the mean on weight column
+df.groupby(["color","breed"])[["weight","height"]].mean() 
+df.groupby("color")["weight"].agg([min,max,sum]) 
+```
 
 ### Dropping categorical data rows with missing values
 dataset.dropna(how='any', subset=['Country', 'Purchased'], inplace=True)
