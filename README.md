@@ -133,6 +133,101 @@ plot_timeseries(ax2, climate_change.index, climate_change['relative_temp'], 'red
 
 plt.show()
 
+fig, ax = plt.subplots()
+# Plot the relative temperature data
+ax.plot(climate_change.index, climate_change['relative_temp'])
+# Annotate the date at which temperatures exceeded 1 degree
+ax.annotate(">1 degree", xy=(pd.Timestamp('2015-10-06'), 1))
+plt.show()
+
+fig, ax = plt.subplots()
+# Plot the CO2 levels time-series in blue
+plot_timeseries(ax, climate_change.index, climate_change["co2"], 'blue', "Time (years)", "CO2 levels")
+# Create an Axes object that shares the x-axis
+ax2 = ax.twinx()
+# Plot the relative temperature data in red
+plot_timeseries(ax2, climate_change.index, climate_change['relative_temp'], 'red', "Time (years)", "Relative temp (Celsius)")
+# Annotate the point with relative temperature >1 degree
+ax2.annotate(">1 degree", xy=(pd.Timestamp('2015-10-06'), 1), xytext=(pd.Timestamp('2008-10-06'), -0.2), arrowprops={'arrowstyle':'->', 'color':'gray'})
+plt.show()
+
+# bar plots
+medals = pd.read_csv('lll.csv', index_col=0)
+fig,ax = plt.subplots()
+ax.bar(medals.index, medals["col1"], label="aa")
+ax.bar(medals.index, medals["col2"], bottom=medals["col1"], label="")
+ax.bar(medals.index, medals["col3"], bottom=medals["col2"] + medals["col1"], label="")
+ax.set_xticklabels(medals.index, rotation=90)
+ax.legand()
+plt.show()
+
+# histogram plots
+fig, ax = plt.subplots()
+# Plot a histogram of "Weight" for mens_rowing
+ax.hist(mens_rowing["Weight"])
+
+# Compare to histogram of "Weight" for mens_gymnastics
+ax.hist(mens_gymnastics["Weight"])
+
+# Set the x-axis label to "Weight (kg)"
+ax.set_xlabel("Weight (kg)")
+# Set the y-axis label to "# of observations"
+ax.set_ylabel("# of observations")
+plt.show()
+
+fig, ax = plt.subplots()
+# Plot a histogram of "Weight" for mens_rowing
+ax.hist(mens_rowing["Weight"], histtype='step', label="Rowing", bins=5)
+# Compare to histogram of "Weight" for mens_gymnastics
+ax.hist(mens_gymnastics["Weight"], histtype='step', label="Gymnastics", bins=5)
+ax.set_xlabel("Weight (kg)")
+ax.set_ylabel("# of observations")
+# Add the legend and show the Figure
+ax.legend()
+plt.show()
+
+## box plots
+fig, ax = plt.subplots()
+
+# Add a bar for the rowing "Height" column mean/std
+ax.bar("Rowing", mens_rowing["Height"].mean(), yerr=mens_rowing["Height"].std())
+
+# Add a bar for the gymnastics "Height" column mean/std
+ax.bar("Gymnastics", mens_gymnastics["Height"].mean(), yerr=mens_gymnastics["Height"].std())
+
+# Label the y-axis
+ax.set_ylabel("Height (cm)")
+
+plt.show()
+
+fig, ax = plt.subplots()
+
+# Add the Seattle temperature data in each month with standard deviation error bars
+ax.errorbar(seattle_weather["MONTH"], seattle_weather["MLY-TAVG-NORMAL"], yerr=seattle_weather["MLY-TAVG-STDDEV"])
+
+# Add the Austin temperature data in each month with standard deviation error bars
+ax.errorbar(austin_weather["MONTH"], austin_weather["MLY-TAVG-NORMAL"], yerr=austin_weather["MLY-TAVG-STDDEV"])
+
+# Set the y-axis label
+ax.set_ylabel("Temperature (Fahrenheit)")
+
+plt.show()
+
+fig, ax = plt.subplots()
+
+# Add a boxplot for the "Height" column in the DataFrames
+ax.boxplot([mens_rowing["Height"], mens_gymnastics["Height"]])
+
+# Add x-axis tick labels:
+ax.set_xticklabels(["Rowing", "Gymnastics"])
+
+# Add a y-axis label
+ax.set_ylabel("Height (cm)")
+
+plt.show()
+
+## scatter plot
+
 # annotating time sereis data
 ** VS Code
 * https://www.linkedin.com/posts/mihir-naik-52b6674_the-vs-code-server-activity-6951734386434138112-Ok9c?utm_source=linkedin_share&utm_medium=android_app
