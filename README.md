@@ -3,6 +3,19 @@
 * https://www.linkedin.com/posts/sanyambhutani_james-powell-so-you-want-to-be-a-python-activity-6942515634656153600-_SzL?utm_source=linkedin_share&utm_medium=android_app
 * https://towardsdatascience.com/python-for-data-scientists-from-a-to-z-12adf56713f1
 
+https://www.linkedin.com/posts/letthedataconfess_python-for-data-science-cheat-sheet-activity-6956281348361732096-gtI4/?utm_source=linkedin_share&utm_medium=android_app
+
+https://www.linkedin.com/posts/activity-6955404339607711744-pFBF/?utm_source=linkedin_share&utm_medium=android_app
+
+https://www.linkedin.com/posts/pratham-kohli_python-cheatsheet-ugcPost-6955375061998428160-xQ_W/?utm_source=linkedin_share&utm_medium=android_app
+
+panda tips
+https://www.linkedin.com/posts/giannis-tolios_datascience-python-machinelearning-activity-6953738029580640257-Z2D7/?utm_source=linkedin_share&utm_medium=android_app
+https://www.linkedin.com/feed/update/urn:li:activity:6955087193358897152/?utm_source=linkedin_share&utm_medium=android_app
+https://www.linkedin.com/posts/giannis-tolios_python-datascience-machinelearning-activity-6954853371191136256-TNyI/?utm_source=linkedin_share&utm_medium=android_app
+
+https://www.linkedin.com/posts/giannis-tolios_python-datascience-machinelearning-activity-6954853371191136256-TNyI/?utm_source=linkedin_share&utm_medium=android_app
+
 ** all about pandas
 *https://www.linkedin.com/posts/saileelarahulpujari_certificate-of-accomplishment-sai-leela-activity-6940373377580679168-egEo?utm_source=linkedin_share&utm_medium=android_app
 
