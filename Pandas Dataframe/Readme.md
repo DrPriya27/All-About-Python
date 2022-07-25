@@ -28,12 +28,12 @@ https://www.linkedin.com/posts/activity-6931211880719949824-HHKv/?utm_source=lin
 
 
 ```
-### viewing the first few rows of the dataset
+### viewing the first few rows and last rows of the dataset
 df.head()
+df.tail()
 
 ### viewing statistical info about dataset
 df.describe()
-
 df.info()
 df.shape
 
@@ -51,7 +51,6 @@ df.iloc[3,:]  #retrive row by "index" row label
 df.isna().sum()
 df.isna().any() #provides true and false
 df.isnull().sum()
-
 df.isna().sum().plot(kind="bar")
 
 ### sorting and subsetting
@@ -186,7 +185,22 @@ eg={
 "name" ["priya","parv"],
 }
 
+### printing lenght of any text column
+df['text'].str.len()
 
+### printing word count 
+df['text'].str.split().str.len()
+
+## checking for specific keyword or digits count per row
+df['text'].str.contains['start']  # will return true and false
+df['text'].str.count(r'\d')
+df['text'].str.finadall(r'\d')    #will return position of digits per row
+
+## pull out hour and minutes from string
+df['text'].str.findall(r'(\d?\d):(\d\d)')
+
+## replace any instances of week day with three question marks
+df['text'].str.replace(r'\w+day\b','???')
 ```
 
 
