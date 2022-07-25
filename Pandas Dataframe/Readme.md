@@ -34,7 +34,7 @@ df.tail()
 
 ### viewing statistical info about dataset
 df.describe()
-df.info()
+df.info()  #will print not-null values
 df.shape
 
 ### print the values of dataset
@@ -201,6 +201,25 @@ df['text'].str.findall(r'(\d?\d):(\d\d)')
 
 ## replace any instances of week day with three question marks
 df['text'].str.replace(r'\w+day\b','???')
+
+df.duplicated().sum()
+
+df.nunique()  #unique values in each column
+for i in df.columns:
+  print(df[i].unique())
+  print(df[i].value_counts())
+  
+  plt.figure(figsize=(15,6))
+  sns.countplot(df[i], data=df, palette='his')
+  df[i].value_counts().plot(king='pie',autopct='   %1.1f%%')
+  plt.xticks(rotation = 90)
+  plt.show()
+  
+df.groupby(['year','quota']).size().plot(kind='line',color='purple')
+
+df['col1'].mean(axis=0)
+df['col1'].min()
+df['col1'].max()
 ```
 
 
