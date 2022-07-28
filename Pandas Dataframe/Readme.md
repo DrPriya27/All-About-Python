@@ -15,6 +15,9 @@ https://codesource.io/data-preprocessing-for-machine-learning/
 
 * Data Clensing
 https://www.kaggle.com/learn/data-cleaning
+https://www.linkedin.com/posts/aleksandra-p%C5%82o%C5%84ska-42047432_automating-eda-machine-learning-activity-6954726851755790336-F18F/?utm_source=linkedin_share&utm_medium=android_app
+
+
 
 * Data Science Hackathon Implementation
 https://blog.devgenius.io/data-science-hackathon-implementation-25d07d5e5d56
@@ -267,6 +270,8 @@ l1.fit(catDf['Country'])
 catDf.Country = l1.transform(catDf.Country)  #this is not inplace
 print(catDf)
 
+https://www.linkedin.com/posts/letthedataconfess_learning-pandas-activity-6953751472069107712-0nwN/?utm_source=linkedin_share&utm_medium=android_app
+
 ### convert categorical values in a dataframe to a one-hot vector
 catDf = pd.get_dummies(data=catDf)
 
@@ -283,6 +288,8 @@ from sklearn.preprocessing import OneHotEncoder
 ct = ColumnTransformer(transformers=[('enconder', OneHotEncoder(), [0])], remainder='passthrough')
 X = np.array(ct.fit_transform(X))
 print(X)
+
+https://www.linkedin.com/posts/giannis-tolios_python-datascience-machinelearning-activity-6954853371191136256-TNyI/?utm_source=linkedin_share&utm_medium=android_app
 
 In the ColumnTransformer class, for the argument ‘transformers’, we have a list containing a tuple as the parameter. The first item ‘encoder’ is the type of transformation we want. ‘OneHotEncoder()’ is the class that will handle the transformation. ‘[0]’ is the index of the column we want to encode. If we have multiple columns to transform, we can put them in the list. In this case, we only have one column with index 0, so it is only 0 that is in the list. The remainder=’passthrough’ means we want to leave the other columns the way they are without transforming them.
 
