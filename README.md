@@ -24,6 +24,8 @@ print(music_df.isna().sum().sort_values())
 
 https://pandastutor.com/
 
+https://www.linkedin.com/posts/khuyen-tran-1401_python-activity-6952952459774349312-8gqS/?utm_source=linkedin_share&utm_medium=android_app
+
 ** Python Libraries
 * for interpratibility (https://www.linkedin.com/posts/smasis_machinelearning-datascience-data-activity-6943539354589958144-azKA?utm_source=linkedin_share&utm_medium=android_app)
 * [PyCaret] https://www.linkedin.com/feed/update/urn:li:activity:6948275260790067200?utm_source=linkedin_share&utm_medium=android_app
@@ -36,6 +38,14 @@ https://pandastutor.com/
 
 **Data visulization**
 https://www.linkedin.com/posts/bextuychiev_how-to-choose-a-correct-dpi-and-f%C4%B1gure-s%C4%B1ze-activity-6952426323914985473-eFNl?utm_source=linkedin_share&utm_medium=android_app
+
+https://www.linkedin.com/feed/update/urn:li:activity:6954521156611682304/?utm_source=linkedin_share&utm_medium=android_app
+
+https://www.linkedin.com/posts/prithivirajdamodaran_view-is-all-you-need-if-you-are-playing-activity-6954721237717684224-dymE/?utm_source=linkedin_share&utm_medium=android_app
+
+https://www.linkedin.com/posts/jill-cates-44bb9147_during-the-pandemic-i-decided-to-start-an-activity-6954194311307554816-cYHZ/?utm_source=linkedin_share&utm_medium=android_app
+
+https://www.linkedin.com/posts/h2es-institute_efficient-python-tricks-and-tools-for-data-activity-6957608460473487360-rNJi/?utm_source=linkedin_share&utm_medium=android_app
 
 
 ** data visualization
