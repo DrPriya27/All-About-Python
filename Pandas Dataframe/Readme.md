@@ -164,6 +164,14 @@ plt.show()
 df.plot(kind="scatter",x="date",y="weight")  
 plt.show()
 
+#to know which is categorical and which is continous
+df.dtype #if object is there than it is categorical and when float64 and int that's a numerical feature
+
+#number of unique values in each column
+df.nunique()
+
+#put everything in categorical and continous columns
+
 #overlaying plots
 df[df["sex"]=="F"]["height"].hist(alpha=0.7)  #alpha to make plots transparent
 df[df["sex"]=="M"]["height"].hist(alpha=0.7)
