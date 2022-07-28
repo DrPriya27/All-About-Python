@@ -356,5 +356,82 @@ print(f"{name1} has a frind called {name2}")
 
 
 
+
+print(1 * 3) #== 3
+print("1" * 3) #=="111"
+
+##docstrings for function definition
+def ...:
+  """ this is all abut """  #triple double quote
+  new_tuple = (x, y)
+  return new_tuple  # returing multiple values
+  
+## scope and user defined functions
+global- defined in main body
+local-  defined in a function (to make it global use global keyword)
+build in- names in the pre-defined built-ins module (import builtins and than dir(builtins))
+Dict is unordered 
+
+Local scope se global per jate h
+Nested function ko non local bana sakte h using nonlocal keyword otherwise it's scope will be limited to local space only
+
+# default argument
+def power(number, pow=1):  # will work both on (power(9), power(9,2)
+   ------
+   
+#flexible argument using *args
+def power(*args):          # will work on power(1) power(1,2) power(1,2,3)
+
+def print_all(**kwargs):
+   for key,value in kwargs.items():
+      print(key+":"+value)
+print_all(name="priya", job="research")
+
+#lambda functions
+raise_to_power =  lambda  x,y:x**y
+raise_to_power(2,3)  # will return 8
+
+##map() applies the function to all elements in the sequence
+map(lambda num: num**2, nums) #here nums is a list of numbers
+
+##filter()
+filter(lambda strings:len(strings)>6, list_string)
+
+##reduce()
+from functools import reduce
+reduce(lambda item1,item2: item1 + item2, list_string)
+
+## errors and exceptions
+# TypeError, UnboundLocalError, UnicodeError
+
+def sqrt(x):
+  if x<0:
+    raise ValueError('...')
+  try:
+    return x ** 0.5
+  except TypeError:
+    print('...')
+    
+## iterating over iterables (lists, strings, dict and file connections [ file=open('file.txt); it=iter(file); print(next(it)) # will print whole file content); next()
+word = 'Da'
+iterator = iter(word)
+next(iterator)  # need to write it again and again
+print(*iterator) # iterating at once
+
+#playing with iterables
+using enumerate() # will give index as well
+e=enumerate(list_strint)
+print(list(e)) # will produce of list of tuples with index and corresponding value informaiton
+
+using zip()
+z= zip(list_string1, list_string2) #will produce lis to tuples with first value and second value
+print(list(z))
+print(*z)
+
+#list comprehensions
+new_nums = [num + 1 for num in nums]
+     .....
+   
+ 
 https://www.youtube.com/watch?v=cKPlPJyQrt4
 
