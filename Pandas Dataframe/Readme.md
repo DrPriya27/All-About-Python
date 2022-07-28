@@ -40,6 +40,10 @@ df.shape
 ### print the values of dataset
 df.values()
 
+df.dropna()
+x = df["col"].values
+df["col"].value_counts()
+
 ### print the column index of dataset
 df.columns
 
@@ -201,6 +205,12 @@ df['text'].str.findall(r'(\d?\d):(\d\d)')
 
 ## replace any instances of week day with three question marks
 df['text'].str.replace(r'\w+day\b','???')
+
+## using iterators to load large files into memory
+specify chunksize in read_csv
+
+for chunk in pd.read_csv('.csv', chunksize=1000):
+   result.append(sum(chunk['col']))
 
 df.duplicated().sum()
 
