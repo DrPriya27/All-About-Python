@@ -171,7 +171,31 @@ df.dtype #if object is there than it is categorical and when float64 and int tha
 df.nunique()
 
 #put everything in categorical and continous columns
+[col for col in df.columns if df[col].dtype="object"]  #similarly do for another
 
+#missing values across columns
+df.isnull().sum(axis=0)
+
+#to check for outlier (consider numerical columns only)
+for col in numerical_cols:
+   sns.boxplot(df[col])
+   plt.show()
+   
+#if there is missing value so apply hard thresholding
+df['col1'][df['col1']>0.2]=0.2  #do the same for testing
+
+#look at correlation of target variable with all other numerical variables
+train_df.corr()
+
+#for categorical plot the count value by checking number of unique values are less than something  #UNIVARIATE PLOTS
+for col in categorical_cols:
+   if train_df[col].nunique() < 30:
+      sns.countplot(train_df[col])
+      plt.xticks[rotate=90]
+      plt.show()
+
+#BIVARIATE PLOTS
+sns.scatterplot(x='',y='target', data=train_df)
 #overlaying plots
 df[df["sex"]=="F"]["height"].hist(alpha=0.7)  #alpha to make plots transparent
 df[df["sex"]=="M"]["height"].hist(alpha=0.7)
@@ -184,7 +208,9 @@ df = df.drop_duplicates()
 ### Dropping categorical data rows with missing values
 df.drona()
 df.dropna(how='any', subset=['Country', 'Purchased'], inplace=True)
-df.fillna(0)
+
+df['col'].fillna(df['col'].mean(), inplace = True)  # fill test missing value also with this mean
+#fill categorical missing values with mod
 
 In the code above, for the parameter ‘how’, the argument ‘any’ drops the row if any value is null. But the argument ‘all’ will only drop the row if all the values are null. The argument for the ‘subset’ parameter is a list containing the columns we want to remove missing values from. ‘inplace=True’ modifies our original dataframe, instead of returning a copy of the dataframe.
 
@@ -274,7 +300,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2)
 ### taking care of Categorical Features
 from sklearn.preprocessing import LabelEncoder
 l1 = LabelEncoder()
-l1.fit(catDf['Country'])
+l1.fit(catDf['Country'].astype(str).values)
 catDf.Country = l1.transform(catDf.Country)  #this is not inplace
 print(catDf)
 
@@ -282,7 +308,7 @@ https://www.linkedin.com/posts/letthedataconfess_learning-pandas-activity-695375
 
 ### convert categorical values in a dataframe to a one-hot vector
 catDf = pd.get_dummies(data=catDf)
-
+      
 Using Sklearn
 from sklearn.preprocessing import OneHotEncoder
 oh = OneHotEncoder()
