@@ -35,6 +35,13 @@ https://www.linkedin.com/posts/khuyen-tran-1401_python-activity-6952952459774349
 * [Mercury] https://www.linkedin.com/posts/piotr-plonski-mljar_ive-updated-the-mercury-demo-notebooks-website-activity-6951491810045132801-M64A?utm_source=linkedin_share&utm_medium=android_app
 * [mlxtend] https://www.linkedin.com/posts/bextuychiev_one-of-the-most-fun-th%C4%B1ngs-you-can-do-w%C4%B1th-activity-6951792146249093121-F7C5?utm_source=linkedin_share&utm_medium=android_app
 * [Rich] https://www.linkedin.com/posts/bextuychiev_rich-%C4%B1s-one-of-the-most-beaut%C4%B1ful-and-useful-activity-6952356593510330368-aZGa?utm_source=linkedin_share&utm_medium=android_app
+* [MLXTEND] https://www.linkedin.com/posts/abhishek-kumar-annamraju_datascience-opensource-machinelearning-activity-6963024391911743488-lf-j/?utm_source=linkedin_share&utm_medium=android_app
+
+**efficient python tricks**
+* https://www.linkedin.com/posts/khuyen-tran-1401_transform-a-dataframe-activity-6961698198620950528-0X98/?utm_source=linkedin_share&utm_medium=android_app
+
+** recursion in depth**
+* https://www.linkedin.com/posts/bhatia-priya_recursion-in-depth-activity-6960104167298207744-1v0n/?utm_source=linkedin_share&utm_medium=android_app
 
 **Data visulization**
 https://www.linkedin.com/posts/bextuychiev_how-to-choose-a-correct-dpi-and-f%C4%B1gure-s%C4%B1ze-activity-6952426323914985473-eFNl?utm_source=linkedin_share&utm_medium=android_app
@@ -109,6 +116,14 @@ def sqrt(x):
   except TypeError:
     print('...')
     
+ pandas cheet sheet
+ https://www.linkedin.com/posts/activity-6964095110091333632-pRO2/?utm_source=linkedin_share&utm_medium=android_app
+ 
+ https://www.linkedin.com/posts/sugatoray_enthought-pandas-cheat-sheet-ugcPost-6964580385703813120--nCi/?utm_source=linkedin_share&utm_medium=android_app
+ 
+ python machine learning course
+ https://www.linkedin.com/posts/aishwarya-srinivasan_datascience-data-python-activity-6962802086098997248-B_B8/?utm_source=linkedin_share&utm_medium=android_app
+    
 ## iterating over iterables (lists, strings, dict and file connections [ file=open('file.txt); it=iter(file); print(next(it)) # will print whole file content); next()
 word = 'Da'
 iterator = iter(word)
@@ -128,6 +143,9 @@ print(*z)
 #list comprehensions
 new_nums = [num + 1 for num in nums]
      .....
+     
+# map and filter
+https://www.linkedin.com/posts/khuyen-tran-1401_python-activity-6963139043702284289-Jf7s/?utm_source=linkedin_share&utm_medium=android_app
    
  
 https://www.youtube.com/watch?v=cKPlPJyQrt4
