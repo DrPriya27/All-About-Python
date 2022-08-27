@@ -17,6 +17,17 @@ https://codesource.io/data-preprocessing-for-machine-learning/
 https://www.kaggle.com/learn/data-cleaning
 https://www.linkedin.com/posts/aleksandra-p%C5%82o%C5%84ska-42047432_automating-eda-machine-learning-activity-6954726851755790336-F18F/?utm_source=linkedin_share&utm_medium=android_app
 
+pandas notebook
+https://www.linkedin.com/feed/update/urn:li:activity:6966346091818532864/?utm_source=linkedin_share&utm_medium=android_app
+
+various python modules
+https://www.linkedin.com/feed/update/urn:li:activity:6966105223811469312/?utm_source=linkedin_share&utm_medium=android_app
+
+pyspark pandas
+https://www.linkedin.com/posts/kvnkho_pyspark-pandas-koalas-activity-6965718691267149824-53Pn/?utm_source=linkedin_share&utm_medium=android_app
+
+https://www.linkedin.com/feed/update/urn:li:activity:6966970420373676032/?utm_source=linkedin_share&utm_medium=android_app
+
 
 
 * Data Science Hackathon Implementation
