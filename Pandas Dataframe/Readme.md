@@ -44,7 +44,9 @@ https://www.linkedin.com/posts/kvnkho_pyspark-pandas-koalas-activity-69657186912
 https://www.linkedin.com/feed/update/urn:li:activity:6966970420373676032/?utm_source=linkedin_share&utm_medium=android_app
 
 
-
+**efficient pandas tricks**
+* https://www.linkedin.com/posts/khuyen-tran-1401_transform-a-dataframe-activity-6961698198620950528-0X98/?utm_source=linkedin_share&utm_medium=android_app
+* 
 * Data Science Hackathon Implementation
 https://blog.devgenius.io/data-science-hackathon-implementation-25d07d5e5d56
 
@@ -54,7 +56,7 @@ https://github.com/anirudhjayaraman/Hackathon-Experiments-With-Data-Analytics-Vi
 * Data wrangling Python
 https://www.linkedin.com/posts/activity-6931211880719949824-HHKv/?utm_source=linkedin_share&utm_medium=android_app
 
-
+https://www.linkedin.com/posts/h2es-institute_efficient-python-tricks-and-tools-for-data-activity-6957608460473487360-rNJi/?utm_source=linkedin_share&utm_medium=android_app
 
 ```
 ### viewing the first few rows and last rows of the dataset
