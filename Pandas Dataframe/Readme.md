@@ -17,6 +17,21 @@ https://codesource.io/data-preprocessing-for-machine-learning/
 https://www.kaggle.com/learn/data-cleaning
 https://www.linkedin.com/posts/aleksandra-p%C5%82o%C5%84ska-42047432_automating-eda-machine-learning-activity-6954726851755790336-F18F/?utm_source=linkedin_share&utm_medium=android_app
 
+panda tips
+https://www.linkedin.com/posts/giannis-tolios_datascience-python-machinelearning-activity-6953738029580640257-Z2D7/?utm_source=linkedin_share&utm_medium=android_app
+https://www.linkedin.com/feed/update/urn:li:activity:6955087193358897152/?utm_source=linkedin_share&utm_medium=android_app
+https://www.linkedin.com/posts/giannis-tolios_python-datascience-machinelearning-activity-6954853371191136256-TNyI/?utm_source=linkedin_share&utm_medium=android_app
+
+https://www.linkedin.com/posts/giannis-tolios_python-datascience-machinelearning-activity-6954853371191136256-TNyI/?utm_source=linkedin_share&utm_medium=android_app
+
+** all about pandas
+*https://www.linkedin.com/posts/saileelarahulpujari_certificate-of-accomplishment-sai-leela-activity-6940373377580679168-egEo?utm_source=linkedin_share&utm_medium=android_app
+
+Print missing values for each column
+print(music_df.isna().sum().sort_values())
+
+https://pandastutor.com/
+
 pandas notebook
 https://www.linkedin.com/feed/update/urn:li:activity:6966346091818532864/?utm_source=linkedin_share&utm_medium=android_app
 
