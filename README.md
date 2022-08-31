@@ -132,5 +132,4 @@ new_nums = [num + 1 for num in nums]
 https://www.linkedin.com/posts/khuyen-tran-1401_python-activity-6963139043702284289-Jf7s/?utm_source=linkedin_share&utm_medium=android_app
    
  
-https://www.youtube.com/watch?v=cKPlPJyQrt4
 
