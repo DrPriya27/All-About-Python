@@ -1,29 +1,19 @@
 # All-About-Python
 
-* https://www.linkedin.com/posts/sanyambhutani_james-powell-so-you-want-to-be-a-python-activity-6942515634656153600-_SzL?utm_source=linkedin_share&utm_medium=android_app
-* https://towardsdatascience.com/python-for-data-scientists-from-a-to-z-12adf56713f1
+So you want to be a Python Expert?
+https://www.linkedin.com/posts/sanyambhutani_james-powell-so-you-want-to-be-a-python-activity-6942515634656153600-_SzL?utm_source=linkedin_share&utm_medium=android_app
 
+Python for Data Scientists, from A to Z
+https://towardsdatascience.com/python-for-data-scientists-from-a-to-z-12adf56713f1
+
+cheat sheet
 https://www.linkedin.com/posts/letthedataconfess_python-for-data-science-cheat-sheet-activity-6956281348361732096-gtI4/?utm_source=linkedin_share&utm_medium=android_app
-
-https://www.linkedin.com/posts/activity-6955404339607711744-pFBF/?utm_source=linkedin_share&utm_medium=android_app
-
 https://www.linkedin.com/posts/pratham-kohli_python-cheatsheet-ugcPost-6955375061998428160-xQ_W/?utm_source=linkedin_share&utm_medium=android_app
 
-panda tips
-https://www.linkedin.com/posts/giannis-tolios_datascience-python-machinelearning-activity-6953738029580640257-Z2D7/?utm_source=linkedin_share&utm_medium=android_app
-https://www.linkedin.com/feed/update/urn:li:activity:6955087193358897152/?utm_source=linkedin_share&utm_medium=android_app
-https://www.linkedin.com/posts/giannis-tolios_python-datascience-machinelearning-activity-6954853371191136256-TNyI/?utm_source=linkedin_share&utm_medium=android_app
+Top 25 GitHub Repos for Python
+https://www.linkedin.com/posts/activity-6955404339607711744-pFBF/?utm_source=linkedin_share&utm_medium=android_app
 
-https://www.linkedin.com/posts/giannis-tolios_python-datascience-machinelearning-activity-6954853371191136256-TNyI/?utm_source=linkedin_share&utm_medium=android_app
-
-** all about pandas
-*https://www.linkedin.com/posts/saileelarahulpujari_certificate-of-accomplishment-sai-leela-activity-6940373377580679168-egEo?utm_source=linkedin_share&utm_medium=android_app
-
-Print missing values for each column
-print(music_df.isna().sum().sort_values())
-
-https://pandastutor.com/
-
+contractions using Python
 https://www.linkedin.com/posts/khuyen-tran-1401_python-activity-6952952459774349312-8gqS/?utm_source=linkedin_share&utm_medium=android_app
 
 ** Python Libraries
@@ -37,43 +27,37 @@ https://www.linkedin.com/posts/khuyen-tran-1401_python-activity-6952952459774349
 * [Rich] https://www.linkedin.com/posts/bextuychiev_rich-%C4%B1s-one-of-the-most-beaut%C4%B1ful-and-useful-activity-6952356593510330368-aZGa?utm_source=linkedin_share&utm_medium=android_app
 * [MLXTEND] https://www.linkedin.com/posts/abhishek-kumar-annamraju_datascience-opensource-machinelearning-activity-6963024391911743488-lf-j/?utm_source=linkedin_share&utm_medium=android_app
 
-**efficient python tricks**
-* https://www.linkedin.com/posts/khuyen-tran-1401_transform-a-dataframe-activity-6961698198620950528-0X98/?utm_source=linkedin_share&utm_medium=android_app
-
-** recursion in depth**
-* https://www.linkedin.com/posts/bhatia-priya_recursion-in-depth-activity-6960104167298207744-1v0n/?utm_source=linkedin_share&utm_medium=android_app
+recursion in depth
+https://www.linkedin.com/posts/bhatia-priya_recursion-in-depth-activity-6960104167298207744-1v0n/?utm_source=linkedin_share&utm_medium=android_app
 
 **Data visulization**
-https://www.linkedin.com/posts/bextuychiev_how-to-choose-a-correct-dpi-and-f%C4%B1gure-s%C4%B1ze-activity-6952426323914985473-eFNl?utm_source=linkedin_share&utm_medium=android_app
+(https://www.linkedin.com/posts/bextuychiev_how-to-choose-a-correct-dpi-and-f%C4%B1gure-s%C4%B1ze-activity-6952426323914985473-eFNl?utm_source=linkedin_share&utm_medium=android_app) (https://www.linkedin.com/posts/mengyaowang11_reference-for-choosing-right-data-visualization-ugcPost-6967774897242587137-dl8u/?utm_source=share&utm_medium=member_android) (https://www.linkedin.com/feed/update/urn:li:activity:6954521156611682304/?utm_source=linkedin_share&utm_medium=android_app) (https://www.linkedin.com/posts/letthedataconfess_data-visualization-techniques-activity-6952117705172742144-jy4j?utm_source=linkedin_share&utm_medium=android_app)(https://github.com/NimritaKoul/Visualization_NumPy_Pandas/blob/main/A%20guide%20to%20choosing%20chart%20types%20for%20data%20visualization.md)
 
-https://www.linkedin.com/feed/update/urn:li:activity:6954521156611682304/?utm_source=linkedin_share&utm_medium=android_app
-
+"View" is all you need if you are playing with tensor shapes.
 https://www.linkedin.com/posts/prithivirajdamodaran_view-is-all-you-need-if-you-are-playing-activity-6954721237717684224-dymE/?utm_source=linkedin_share&utm_medium=android_app
 
+Practical Python for Data Science
 https://www.linkedin.com/posts/jill-cates-44bb9147_during-the-pandemic-i-decided-to-start-an-activity-6954194311307554816-cYHZ/?utm_source=linkedin_share&utm_medium=android_app
 
-https://www.linkedin.com/posts/h2es-institute_efficient-python-tricks-and-tools-for-data-activity-6957608460473487360-rNJi/?utm_source=linkedin_share&utm_medium=android_app
+VS Code
+https://www.linkedin.com/posts/mihir-naik-52b6674_the-vs-code-server-activity-6951734386434138112-Ok9c?utm_source=linkedin_share&utm_medium=android_app
 
-* https://github.com/NimritaKoul/Visualization_NumPy_Pandas/blob/main/A%20guide%20to%20choosing%20chart%20types%20for%20data%20visualization.md
-* https://www.linkedin.com/posts/letthedataconfess_data-visualization-techniques-activity-6952117705172742144-jy4j?utm_source=linkedin_share&utm_medium=android_app
-
-
-# annotating time sereis data
-** VS Code
-* https://www.linkedin.com/posts/mihir-naik-52b6674_the-vs-code-server-activity-6951734386434138112-Ok9c?utm_source=linkedin_share&utm_medium=android_app
-
-
+managing python versions and virtual environment
+https://www.linkedin.com/posts/scgupta_managing-versions-and-virtual-environments-activity-6967712364523634689-0rH8/?utm_source=share&utm_medium=member_android
 
 ##docstrings for function definition
+'''
 def ...:
   """ this is all abut """  #triple double quote
   new_tuple = (x, y)
   return new_tuple  # returing multiple values
+'''
   
-## scope and user defined functions
+scope and user defined functions
 global- defined in main body
 local-  defined in a function (to make it global use global keyword)
 build in- names in the pre-defined built-ins module (import builtins and than dir(builtins))
+
 Dict is unordered 
 
 Local scope se global per jate h
