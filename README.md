@@ -30,7 +30,7 @@ https://www.linkedin.com/posts/khuyen-tran-1401_python-activity-6952952459774349
 recursion in depth
 https://www.linkedin.com/posts/bhatia-priya_recursion-in-depth-activity-6960104167298207744-1v0n/?utm_source=linkedin_share&utm_medium=android_app
 
-**Data visulization**
+Data visulization
 (https://www.linkedin.com/posts/bextuychiev_how-to-choose-a-correct-dpi-and-f%C4%B1gure-s%C4%B1ze-activity-6952426323914985473-eFNl?utm_source=linkedin_share&utm_medium=android_app) (https://www.linkedin.com/posts/mengyaowang11_reference-for-choosing-right-data-visualization-ugcPost-6967774897242587137-dl8u/?utm_source=share&utm_medium=member_android) (https://www.linkedin.com/feed/update/urn:li:activity:6954521156611682304/?utm_source=linkedin_share&utm_medium=android_app) (https://www.linkedin.com/posts/letthedataconfess_data-visualization-techniques-activity-6952117705172742144-jy4j?utm_source=linkedin_share&utm_medium=android_app)(https://github.com/NimritaKoul/Visualization_NumPy_Pandas/blob/main/A%20guide%20to%20choosing%20chart%20types%20for%20data%20visualization.md)
 
 "View" is all you need if you are playing with tensor shapes.
@@ -46,13 +46,13 @@ managing python versions and virtual environment
 https://www.linkedin.com/posts/scgupta_managing-versions-and-virtual-environments-activity-6967712364523634689-0rH8/?utm_source=share&utm_medium=member_android
 
 ##docstrings for function definition
-'''
+
+```
 def ...:
   """ this is all abut """  #triple double quote
   new_tuple = (x, y)
   return new_tuple  # returing multiple values
-'''
-  
+
 scope and user defined functions
 global- defined in main body
 local-  defined in a function (to make it global use global keyword)
@@ -100,14 +100,6 @@ def sqrt(x):
   except TypeError:
     print('...')
     
- pandas cheet sheet
- https://www.linkedin.com/posts/activity-6964095110091333632-pRO2/?utm_source=linkedin_share&utm_medium=android_app
- 
- https://www.linkedin.com/posts/sugatoray_enthought-pandas-cheat-sheet-ugcPost-6964580385703813120--nCi/?utm_source=linkedin_share&utm_medium=android_app
- 
- python machine learning course
- https://www.linkedin.com/posts/aishwarya-srinivasan_datascience-data-python-activity-6962802086098997248-B_B8/?utm_source=linkedin_share&utm_medium=android_app
-    
 ## iterating over iterables (lists, strings, dict and file connections [ file=open('file.txt); it=iter(file); print(next(it)) # will print whole file content); next()
 word = 'Da'
 iterator = iter(word)
@@ -126,9 +118,14 @@ print(*z)
 
 #list comprehensions
 new_nums = [num + 1 for num in nums]
-     .....
-     
-# map and filter
+```     
+python machine learning course
+https://www.linkedin.com/posts/aishwarya-srinivasan_datascience-data-python-activity-6962802086098997248-B_B8/?utm_source=linkedin_share&utm_medium=android_app
+    
+
+
+
+map and filter
 https://www.linkedin.com/posts/khuyen-tran-1401_python-activity-6963139043702284289-Jf7s/?utm_source=linkedin_share&utm_medium=android_app
    
  
