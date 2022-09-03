@@ -60,7 +60,24 @@ https://github.com/anirudhjayaraman/Hackathon-Experiments-With-Data-Analytics-Vi
 * Data wrangling Python
 https://www.linkedin.com/posts/activity-6931211880719949824-HHKv/?utm_source=linkedin_share&utm_medium=android_app
 
+
 https://www.linkedin.com/posts/h2es-institute_efficient-python-tricks-and-tools-for-data-activity-6957608460473487360-rNJi/?utm_source=linkedin_share&utm_medium=android_app
+
+* Importing packages
+https://www.linkedin.com/feed/update/urn:li:activity:6968154864774184960/?utm_source=share&utm_medium=member_android
+
+* Getting started with pandas
+https://www.linkedin.com/feed/update/urn:li:activity:6969346875959209984/?utm_source=share&utm_medium=member_android
+
+* cheat sheet
+https://www.linkedin.com/posts/arjun-panwar_python-machinelearning-deeplearning-activity-6929374018235944960-lYRZ/?utm_source=linkedin_share&utm_medium=android_app
+
+* notes
+https://www.linkedin.com/feed/update/urn:li:activity:6929087604768301056/?utm_source=linkedin_share&utm_medium=android_app
+https://www.learndatasci.com/tutorials/python-pandas-tutorial-complete-introduction-for-beginners/
+
+Pandas interview questions
+https://devenum.com/15-pandas-programs-interview-questions-on-data-filter/
 
 ```
 ### viewing the first few rows and last rows of the dataset
