@@ -1,4 +1,15 @@
-# All-About-Python
+# All-About-Python (learn from Hackerrank)
+
+python tutorial
+https://www.w3schools.com/python/python_functions.asp
+https://www.geeksforgeeks.org/python-programming-language/
+https://python.swaroopch.com/
+https://www.codesdope.com/course/python-input/
+https://github.com/Deepali-Shinde/Python
+https://developers.google.com/edu/python/set-up
+
+pthon essentials
+https://www.linkedin.com/feed/update/urn:li:activity:6929815749536403457/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6929815749536403457%29
 
 So you want to be a Python Expert?
 https://www.linkedin.com/posts/sanyambhutani_james-powell-so-you-want-to-be-a-python-activity-6942515634656153600-_SzL?utm_source=linkedin_share&utm_medium=android_app
@@ -6,9 +17,29 @@ https://www.linkedin.com/posts/sanyambhutani_james-powell-so-you-want-to-be-a-py
 Python for Data Scientists, from A to Z
 https://towardsdatascience.com/python-for-data-scientists-from-a-to-z-12adf56713f1
 
+Pyhon interview questions
+https://www.interviewbit.com/python-interview-questions/#python-programs
+
+Python coding questions
+https://www.bogotobogo.com/python/python_interview_questions.php
+
+Python primer
+https://www.linkedin.com/posts/amanc_python-artificialintelligence-machinelearning-activity-6969551277835911168-R2OQ/?utm_source=share&utm_medium=member_android
+
+Array and hastables
+https://www.linkedin.com/posts/pastor-soto-34215b125_python-codingpractices-data-activity-6969612901980459008-2uCL/?utm_source=share&utm_medium=member_android
+
+Python tips
+https://www.linkedin.com/posts/h2es-institute_efficient-python-tricks-and-tools-for-data-activity-6957608460473487360-rNJi/?utm_source=linkedin_share&utm_medium=android_app
+
+python tutorial
+https://www.linkedin.com/posts/activity-6926105402682085376-Z8XT/?utm_source=linkedin_share&utm_medium=android_app
+
 cheat sheet
 https://www.linkedin.com/posts/letthedataconfess_python-for-data-science-cheat-sheet-activity-6956281348361732096-gtI4/?utm_source=linkedin_share&utm_medium=android_app
 https://www.linkedin.com/posts/pratham-kohli_python-cheatsheet-ugcPost-6955375061998428160-xQ_W/?utm_source=linkedin_share&utm_medium=android_app
+https://www.linkedin.com/posts/smritimishra_python-activity-6932354306582937600-Z-2u/?utm_source=linkedin_share&utm_medium=android_app
+https://www.linkedin.com/feed/update/urn:li:activity:6930557673268490240/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6930557673268490240%29
 
 Top 25 GitHub Repos for Python
 https://www.linkedin.com/posts/activity-6955404339607711744-pFBF/?utm_source=linkedin_share&utm_medium=android_app
@@ -32,6 +63,18 @@ https://www.linkedin.com/posts/bhatia-priya_recursion-in-depth-activity-69601041
 
 Data visulization
 (https://www.linkedin.com/posts/bextuychiev_how-to-choose-a-correct-dpi-and-f%C4%B1gure-s%C4%B1ze-activity-6952426323914985473-eFNl?utm_source=linkedin_share&utm_medium=android_app) (https://www.linkedin.com/posts/mengyaowang11_reference-for-choosing-right-data-visualization-ugcPost-6967774897242587137-dl8u/?utm_source=share&utm_medium=member_android) (https://www.linkedin.com/feed/update/urn:li:activity:6954521156611682304/?utm_source=linkedin_share&utm_medium=android_app) (https://www.linkedin.com/posts/letthedataconfess_data-visualization-techniques-activity-6952117705172742144-jy4j?utm_source=linkedin_share&utm_medium=android_app)(https://github.com/NimritaKoul/Visualization_NumPy_Pandas/blob/main/A%20guide%20to%20choosing%20chart%20types%20for%20data%20visualization.md)
+(https://www.linkedin.com/posts/activity-6968228733585420288-pSdw/?utm_source=share&utm_medium=member_android)
+(https://www.linkedin.com/posts/khuyen-tran-1401_python-activity-6971464744062894080-oVyQ/?utm_source=share&utm_medium=member_android)
+(https://www.linkedin.com/feed/update/urn:li:activity:6929343732861317121/?utm_source=linkedin_share&utm_medium=android_app)
+
+DS and ML codes
+https://chrisalbon.com/
+
+python itertools
+https://medium.com/@jasonrigden/a-guide-to-python-itertools-82e5a306cdf8
+
+python handbook
+https://www.linkedin.com/feed/update/urn:li:activity:6938071716380200960/?utm_source=linkedin_share&utm_medium=android_app
 
 "View" is all you need if you are playing with tensor shapes.
 https://www.linkedin.com/posts/prithivirajdamodaran_view-is-all-you-need-if-you-are-playing-activity-6954721237717684224-dymE/?utm_source=linkedin_share&utm_medium=android_app
