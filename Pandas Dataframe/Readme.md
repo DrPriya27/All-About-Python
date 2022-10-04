@@ -30,6 +30,7 @@ https://www.linkedin.com/posts/giannis-tolios_python-datascience-machinelearning
  pandas cheet sheet
  https://www.linkedin.com/posts/activity-6964095110091333632-pRO2/?utm_source=linkedin_share&utm_medium=android_app
  https://www.linkedin.com/posts/sugatoray_enthought-pandas-cheat-sheet-ugcPost-6964580385703813120--nCi/?utm_source=linkedin_share&utm_medium=android_app
+ https://www.linkedin.com/posts/yashmirge_pandas-cheatsheet-ugcPost-6981970821493743616-VOI6/?utm_source=share&utm_medium=member_android
 
 Print missing values for each column
 print(music_df.isna().sum().sort_values())
