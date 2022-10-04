@@ -23,6 +23,7 @@ https://www.linkedin.com/feed/update/urn:li:activity:6955087193358897152/?utm_so
 https://www.linkedin.com/posts/giannis-tolios_python-datascience-machinelearning-activity-6954853371191136256-TNyI/?utm_source=linkedin_share&utm_medium=android_app
 
 https://www.linkedin.com/posts/giannis-tolios_python-datascience-machinelearning-activity-6954853371191136256-TNyI/?utm_source=linkedin_share&utm_medium=android_app
+https://www.linkedin.com/feed/update/urn:li:activity:6974691523271503872/?utm_source=share&utm_medium=member_android
 
 ** all about pandas
 *https://www.linkedin.com/posts/saileelarahulpujari_certificate-of-accomplishment-sai-leela-activity-6940373377580679168-egEo?utm_source=linkedin_share&utm_medium=android_app
