@@ -1,12 +1,12 @@
 # All-About-Python (learn from Hackerrank)
 
 python tutorial
-https://www.w3schools.com/python/python_functions.asp
-https://www.geeksforgeeks.org/python-programming-language/
-https://python.swaroopch.com/
-https://www.codesdope.com/course/python-input/
-https://github.com/Deepali-Shinde/Python
-https://developers.google.com/edu/python/set-up
+-- https://www.w3schools.com/python/python_functions.asp
+-- https://www.geeksforgeeks.org/python-programming-language/
+-- https://python.swaroopch.com/
+-- https://www.codesdope.com/course/python-input/
+-- https://github.com/Deepali-Shinde/Python
+-- https://developers.google.com/edu/python/set-up
 
 pthon essentials
 https://www.linkedin.com/feed/update/urn:li:activity:6929815749536403457/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6929815749536403457%29
@@ -36,15 +36,16 @@ python tutorial
 https://www.linkedin.com/posts/activity-6926105402682085376-Z8XT/?utm_source=linkedin_share&utm_medium=android_app
 
 cheat sheet
-https://www.linkedin.com/posts/letthedataconfess_python-for-data-science-cheat-sheet-activity-6956281348361732096-gtI4/?utm_source=linkedin_share&utm_medium=android_app
-https://www.linkedin.com/posts/pratham-kohli_python-cheatsheet-ugcPost-6955375061998428160-xQ_W/?utm_source=linkedin_share&utm_medium=android_app
-https://www.linkedin.com/posts/smritimishra_python-activity-6932354306582937600-Z-2u/?utm_source=linkedin_share&utm_medium=android_app
-https://www.linkedin.com/feed/update/urn:li:activity:6930557673268490240/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6930557673268490240%29
-https://www.linkedin.com/feed/update/urn:li:activity:6977458227709919232/?utm_source=share&utm_medium=member_android
+-- https://www.linkedin.com/posts/letthedataconfess_python-for-data-science-cheat-sheet-activity-6956281348361732096-gtI4/?utm_source=linkedin_share&utm_medium=android_app
+-- https://www.linkedin.com/posts/pratham-kohli_python-cheatsheet-ugcPost-6955375061998428160-xQ_W/?utm_source=linkedin_share&utm_medium=android_app
+-- https://www.linkedin.com/posts/smritimishra_python-activity-6932354306582937600-Z-2u/?utm_source=linkedin_share&utm_medium=android_app
+-- https://www.linkedin.com/feed/update/urn:li:activity:6930557673268490240/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6930557673268490240%29
+-- https://www.linkedin.com/feed/update/urn:li:activity:6977458227709919232/?utm_source=share&utm_medium=member_android
 
-all about python
+all about python ML
 https://www.linkedin.com/feed/update/urn:li:activity:6975518870195331072/?utm_source=share&utm_medium=member_android
 
+python for data science
 https://www.linkedin.com/posts/ashishpatel2604_python-for-data-science-activity-6974773520857743362-c61y/?utm_source=share&utm_medium=member_android
 
 python series
@@ -174,9 +175,6 @@ new_nums = [num + 1 for num in nums]
 python machine learning course
 https://www.linkedin.com/posts/aishwarya-srinivasan_datascience-data-python-activity-6962802086098997248-B_B8/?utm_source=linkedin_share&utm_medium=android_app
     
-
-
-
 map and filter
 https://www.linkedin.com/posts/khuyen-tran-1401_python-activity-6963139043702284289-Jf7s/?utm_source=linkedin_share&utm_medium=android_app
    
