@@ -1,6 +1,9 @@
 * Creating, Reading and Writing
 https://www.kaggle.com/code/residentmario/creating-reading-and-writing/tutorial
 
+* Python pandas tutorial
+https://www.learndatasci.com/tutorials/python-pandas-tutorial-complete-introduction-for-beginners/
+
 * Ultimate Guide to Pandas Groupby & Aggregate
 https://www.kaggle.com/code/akshaysehgal/ultimate-guide-to-pandas-groupby-aggregate/notebook
 
@@ -12,6 +15,15 @@ https://www.kdnuggets.com/2020/07/easy-guide-data-preprocessing-python.html
 
 * Data Preprocessing for Machine Learning
 https://codesource.io/data-preprocessing-for-machine-learning/
+
+* n-largest python
+https://www.linkedin.com/posts/khuyen-tran-1401_python-pandas-activity-6960244048024506368-VUS6/?utm_source=linkedin_share&utm_medium=android_app
+
+* outliers
+https://www.linkedin.com/posts/giannis-tolios_%3F%3F%3F%3F%3F-%3F%3F%3F%3F%3F%3F-%3F%3F%3F-%3F%3F-%3F%3F%3F-activity-6960305647972159488-hrLl/?utm_source=linkedin_share&utm_medium=android_app
+
+* pandas summary
+https://www.linkedin.com/posts/selvaprabhakaran_7-pandas-summary-activity-6924703417407848448-7Mjw/?utm_source=linkedin_share&utm_medium=android_app
 
 * Data Clensing
 https://www.kaggle.com/learn/data-cleaning
