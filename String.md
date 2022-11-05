@@ -49,7 +49,21 @@ print("Today's date is (:%Y-%m-%d %H:%H".format(datetime.now())
 
 2) formatting string literal
 print(f"{name1} has a frind called {name2}")
+print(f'pi is equal to {pi}') #use{pi:.3f} for printing three decimal places, use{pi:.3} for printing whole number as three digit long, use{pi:12.3f} for leaving 12 spaces before printing, use{pi:012.3f} for 12 padding but with leading zero, use{pi:+.3f} to have + in front, use{pi:<12.3f} will leave space in the right, use{pi:^12.3f} for centrally aligned
+
 ```
+
+### Regular expressions
+![Screenshot_20221105-143907_Samsung Internet](https://user-images.githubusercontent.com/54790008/200112668-4b7c2cfd-aa71-4cd2-a2d5-4106df318341.jpg)
+
+![Screenshot_20221105-144044_Samsung Internet](https://user-images.githubusercontent.com/54790008/200112680-6bad9e87-042e-4e2c-92d8-f0bdec1a360c.jpg)
+
+![Screenshot_20221105-144121_Samsung Internet](https://user-images.githubusercontent.com/54790008/200112685-22a7b0d6-6f21-431a-b129-7577b24e99a9.jpg)
+
+![Screenshot_20221105-144134_Samsung Internet](https://user-images.githubusercontent.com/54790008/200112689-6af7e1e0-85cf-40df-b994-4a8e237ef54e.jpg)
+
+![Screenshot_20221105-144158_Samsung Internet](https://user-images.githubusercontent.com/54790008/200112629-42d29aa8-6db8-4fcd-8f3f-848b54853b5e.jpg)
+
 
 
 
